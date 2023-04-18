@@ -6,8 +6,9 @@ jobs:
     
     steps:
       - name: Run Hostname
-        run: hostname
-        run: whoami
+        run:
+            hostname
+            whoami
       - name: Pring greetings
         run: echo "Hello World!"
       - name: Pring goodbye
